@@ -1,0 +1,43 @@
+#main {
+    padding: 20px;
+}
+
+/* field */
+.field {
+  height: 488px;
+  width: 248px;
+  display: flex;
+  border: 4px solid black;
+  box-sizing: content-box;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+
+/* cells */
+.cell-empty ,
+.cell-wall {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  /*border: 1px solid black;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.cell-empty { background-color: lightgray; }
+.cell-wall { background-color: gray; }
+
+
+/* blocks */
+.block_red,
+.block_blue,
+.block_green{
+  width: 80%;
+  height: 80%;
+}
+
+.block_red{ background-color: red; }
+.block_blue{ background-color: blue; }
+.block_green{ background-color: green; }
+
